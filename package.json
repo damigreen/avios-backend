@@ -1,0 +1,27 @@
+{
+  "name": "avios-backend",
+  "version": "1.0.0",
+  "description": "avios buyuers and sellers market",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "damigreen"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "damilola faseun",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "mongoose": "^5.10.3",
+    "mongoose-unique-validator": "^2.0.3",
+    "nodemon": "^2.0.4"
+  }
+}

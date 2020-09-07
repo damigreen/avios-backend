@@ -1,0 +1,10 @@
+PUT http://localhost:3007/api/products/5f561cad32f0c42730038ab6
+Content-Type: application/json
+
+{
+  "size": 53,
+  "color": "Brown",
+  "quantity": 12,
+  "images": ["image6", "image7"],
+  "price": 20000
+}

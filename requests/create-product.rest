@@ -1,0 +1,10 @@
+POST http://localhost:3007/api/products
+Content-Type: application/json
+
+{
+  "size": 67,
+  "color": "Brown",
+  "quantity": 12,
+  "images": ["image6", "image7"],
+  "price": 20000
+}
